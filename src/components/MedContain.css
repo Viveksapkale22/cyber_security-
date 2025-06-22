@@ -1,0 +1,73 @@
+.medcontain-container {
+  width: 100%;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medcontain-content {
+  width: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(25, 118, 210, 0.2);
+  text-align: center;
+}
+
+.medcontain-content h1 {
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.medcontain-content p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.medcontain-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.medcontain-content ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.med-btn {
+  padding: 12px 24px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.med-btn:hover {
+  background: #1565c0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .medcontain-content {
+    padding: 30px 20px;
+  }
+
+  .medcontain-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .medcontain-content p,
+  .medcontain-content ul li {
+    font-size: 1rem;
+  }
+}
